@@ -1,0 +1,69 @@
+<h2>新板块布局方向</h2>
+<p class="subtitle">目标：像“板块资金流向”一样独立处理，只读取现有持仓和行情数据，输出买卖策略与盈利预期。</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup">
+        <div class="mockup-header">策略总览优先</div>
+        <div class="mockup-body">
+          <div class="mock-nav">我的持仓 | 板块资金流向 | 基金策略</div>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0;">
+            <div class="placeholder">建议仓位</div>
+            <div class="placeholder">预期收益</div>
+            <div class="placeholder">风险等级</div>
+          </div>
+          <div class="placeholder">今日策略摘要：买入 / 持有 / 减仓 / 卖出</div>
+          <div class="placeholder">基金清单与操作建议</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. 仪表盘式</h3>
+      <p>先给组合级结论，再看每只基金。适合每天快速决策。</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup">
+        <div class="mockup-header">基金逐只评分优先</div>
+        <div class="mockup-body">
+          <div class="mock-nav">我的持仓 | 板块资金流向 | 基金策略</div>
+          <div class="placeholder">筛选：全部 / 买入 / 持有 / 减仓 / 卖出</div>
+          <div class="placeholder">014143 评分 82 买入 目标仓位 12%</div>
+          <div class="placeholder">014881 评分 64 持有 目标仓位 8%</div>
+          <div class="placeholder">002207 评分 41 减仓 目标仓位 3%</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. 排名清单式</h3>
+      <p>每只基金都有评分、动作和理由。适合做轮动排序。</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup">
+        <div class="mockup-header">计划执行优先</div>
+        <div class="mockup-body">
+          <div class="mock-nav">我的持仓 | 板块资金流向 | 基金策略</div>
+          <div class="placeholder">今日可执行操作：买入 2 只，减仓 1 只</div>
+          <div class="placeholder">买入清单：代码、金额比例、触发条件</div>
+          <div class="placeholder">卖出清单：代码、卖出比例、止损条件</div>
+          <div class="placeholder">7日跟踪：何时复查</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. 交易计划式</h3>
+      <p>直接围绕“今天怎么操作”。适合你明确想执行买卖时。</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>我的建议</h3>
+  <p>先采用 A：顶部给组合级策略，下面保留 B 的逐只基金评分。这样每天看一眼就有结论，也能追溯每条建议为什么出现。</p>
+</div>

@@ -1,0 +1,4 @@
+{"type":"server-started","port":55072,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:55072","screen_dir":"C:\\ai\\stocks\\.superpowers\\brainstorm\\stable-1779409647\\content","state_dir":"C:\\ai\\stocks\\.superpowers\\brainstorm\\stable-1779409647\\state"}
+{"type":"screen-added","file":"C:\\ai\\stocks\\.superpowers\\brainstorm\\stable-1779409647\\content\\strategy-layout-options.html"}
+{"type":"screen-added","file":"C:\\ai\\stocks\\.superpowers\\brainstorm\\stable-1779409647\\content\\waiting-strategy-rules.html"}
+{"type":"server-stopped","reason":"idle timeout"}

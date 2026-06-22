@@ -1,0 +1,76 @@
+==================================================
+基金&股票监控系统吊?..
+数据来源：天天基金网 & 东方财富
+访问地址：http://localhost:5002
+==================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.66.197:5002
+Press CTRL+C to quit
+127.0.0.1 - - [10/Jun/2026 13:18:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:18:30] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:18:32] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:18:33] "GET /api/strategy HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:18:44] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:18:44] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:18:47] "GET /api/strategy HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:19:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/Jun/2026 13:19:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:19:14] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:19:18] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:19:18] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:20:14] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:20:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:20:14] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:20:27] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:20:39] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:20:49] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:21:04] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:21:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:21:15] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:22:09] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:22:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:22:14] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:22:36] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:22:36] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:22:37] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:22:38] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:23:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:23:15] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:24:01] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:24:02] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:24:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:24:15] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:24:30] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:24:30] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:25:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:25:14] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:26:15] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:26:16] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:27:14] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:27:15] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:28:17] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:28:17] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:29:17] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:29:17] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:30:21] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:30:21] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:31:19] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:31:19] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:32:22] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:32:22] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:33:21] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:33:21] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:34:21] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:34:22] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:35:21] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:35:21] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:36:21] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:36:31] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:37:21] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:37:21] "GET /api/indices HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:38:15] "GET /api/funds HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2026 13:38:16] "GET /api/indices HTTP/1.1" 200 -

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python app.py:*)",
+      "Bash(ping:*)",
+      "Bash(curl:*)",
+      "Bash(python:*)",
+      "Bash(pkill:*)",
+      "Bash(cmd.exe /c \"taskkill /F /PID 75080 & taskkill /F /PID 73592\")",
+      "Bash(netstat:*)",
+      "Bash(powershell -Command \"Stop-Process -Id 75080 -Force; Stop-Process -Id 73592 -Force\")",
+      "Bash(iconv:*)"
+    ]
+  }
+}
