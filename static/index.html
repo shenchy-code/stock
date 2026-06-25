@@ -777,12 +777,6 @@
                 <button type="submit" class="btn btn-primary">添加基金</button>
                 <button type="button" class="btn btn-success" onclick="refreshAllFunds()">刷新全部</button>
             </form>
-            <div class="export-import">
-                <button class="btn btn-primary" onclick="exportData()">导出数据</button>
-                <button class="btn btn-success" onclick="document.getElementById('importFile').click()">导入数据</button>
-                <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)">
-                <button class="btn btn-danger" onclick="clearAllData()">清空数据</button>
-            </div>
         </div>
 
         <div class="stats" id="stats" style="display: none;">
@@ -797,6 +791,10 @@
             <div class="stat-item">
                 <div class="stat-label">创业板指</div>
                 <div class="stat-value" id="idxCY">--</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">恒生指数</div>
+                <div class="stat-value" id="idxHS">--</div>
             </div>
         </div>
 
@@ -1343,6 +1341,7 @@
                 '上证指数': 'idxSH',
                 '深成指数': 'idxSZ',
                 '创业板指': 'idxCY',
+                '恒生指数': 'idxHS',
             };
             try {
                 const resp = await fetch('/api/indices');
@@ -1376,7 +1375,7 @@
                     }
                 });
             } catch (e) {
-                ['idxSH', 'idxSZ', 'idxCY'].forEach(id => {
+                ['idxSH', 'idxSZ', 'idxCY', 'idxHS'].forEach(id => {
                     const el = document.getElementById(id);
                     if (el) el.textContent = '--';
                 });
